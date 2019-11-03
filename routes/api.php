@@ -43,3 +43,7 @@ Route::group(['prefix' => 'admin'], function () {
 
 });
 
+
+Route::apiResource('languages', 'LanguageController');
+
+
