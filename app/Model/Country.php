@@ -13,6 +13,7 @@ class Country extends Model
           'mobile_prefix' ,
            'language_id' ,
             'user_id' ,
-             'nationality'
+             'nationality',
+             'is_active'
     ];
 }

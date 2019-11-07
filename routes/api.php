@@ -45,5 +45,7 @@ Route::group(['prefix' => 'admin'], function () {
 
 
 Route::apiResource('languages', 'LanguageController');
+Route::apiResource('country', 'CountryController');
+Route::apiResource('city', 'CityController');
 
 
