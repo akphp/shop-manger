@@ -16,7 +16,8 @@ class CreateConstantsTable extends Migration
         Schema::create('constants', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->unsignedBigInteger('parent_id');
-            $table->string('name');
+            $table->json('name');
+             $table->json('value');
             $table->unsignedBigInteger('user_id');
             $table->integer('is_active');
             $table->timestamps();

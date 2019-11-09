@@ -114,4 +114,5 @@ class ConstantController extends Controller
             return $this->apiResponse(null , "error" , 500);
         }
     }
+    
 }
